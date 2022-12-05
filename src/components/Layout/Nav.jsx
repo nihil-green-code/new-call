@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-export const Nav = () => {
+export function Nav() {
   return (
     <>
       <nav>
