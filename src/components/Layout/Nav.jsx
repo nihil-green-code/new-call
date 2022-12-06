@@ -7,19 +7,29 @@ export function Nav() {
       <nav>
         <ul>
           <li>
-            <Link href='/' passHref>메인 페이지</Link>
+            <Link href='/' passHref>
+              <a>메인 페이지</a>
+            </Link>
           </li>
           <li>
-            <Link href='/custom' passHref>주문제작</Link>
+            <Link href='/custom' passHref>
+              <a>주문제작</a>
+            </Link>
           </li>
           <li>
-            <Link href='/design' passHref>디자인</Link>
+            <Link href='/design' passHref>
+              <a>디자인</a>
+            </Link>
           </li>
           <li>
-            <Link href='/ETC' passHref>ETC</Link>
+            <Link href='/ETC' passHref>
+              <a>ETC</a>
+            </Link>
           </li>
           <li>
-            <Link href='/community' passHref>커뮤니티</Link>
+            <Link href='/community' passHref>
+              <a>커뮤니티</a>
+            </Link>
           </li>
         </ul>
       </nav>

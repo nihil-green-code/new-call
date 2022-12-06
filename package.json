@@ -2,9 +2,11 @@
   "name": "new-kall",
   "version": "0.1.0",
   "scripts": {
-    "dev": "next dev",
+    "remove": "rm -rf node_modules/.cache && rm -rf build/",
+    "open": "start http://localhost:3000",
+    "dev": "npm run remove && npm run open && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npm run remove && npm run build && npm run open && next start",
     "lint": "next lint"
   },
   "dependencies": {
